@@ -1,0 +1,50 @@
+.result {
+    max-width: 1200px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    &__title{
+        h2{
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: green;
+        }
+    }
+    &__detail {
+        text-align: center;
+        font-size: 18px;
+        span {
+            margin-right: 10px;
+            font-weight: 700;
+            color: red;
+        }
+    }
+    &__quiz {
+        padding: 20px;
+    }
+    &__item {
+        margin-bottom: 10px;
+        p{
+            margin-top: 0;
+            color: #000;
+            font-size: 24px;
+            font-weight: 700;
+            
+        }
+    }
+    &__label{
+        margin: 10px 20px; 
+        font-size: 17px;
+    }
+}
+.selection-false{
+    color: red;
+    font-weight: 500;
+}
+.selection-right{
+    color: green;
+    font-weight: 700;
+}

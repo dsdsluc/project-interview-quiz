@@ -1,0 +1,16 @@
+.topic-list {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    th{
+        font-size: 22px;
+        color: #000;
+        font-weight: 700 !important;
+    }
+    td{
+        font-size: 18px;
+    }
+}
